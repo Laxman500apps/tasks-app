@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.task-list, .task-assignment, .task-status-updates, .task-summary-page {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.task-list input[type="text"], .task-assignment input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-list button, .task-assignment button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-list button:hover, .task-assignment button:hover {
+  background-color: #0056b3;
+}
+
+.task-assignment select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.task-status-updates ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-status-updates li {
+  margin-bottom: 10px;
+}
+
+.task-status-updates button {
+  margin-left: 10px;
+}
+
+.task-summary-page p {
+  margin: 10px 0;
+}
